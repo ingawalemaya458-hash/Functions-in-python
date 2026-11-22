@@ -1,4 +1,5 @@
-#1.Even or Odd Function Write a function is_even(n) that returns "Even" if the number is even, otherwise "Odd".
+#1.Even or Odd Function 
+#Write a function is_even(n) that returns "Even" if the number is even, otherwise "Odd".
 
 def is_even(n):
     if n % 2 == 0:
@@ -9,7 +10,8 @@ def is_even(n):
 print(is_even(4))  # Output: Even
 print(is_even(7))  # Output: Odd
 
-#2. Largest of Two Numbers- Write a function largest(a, b) that returns the larger number.
+#2. Largest of Two Numbers 
+#Write a function largest(a, b) that returns the larger number.
 
 def largest(a, b):
     if a > b:
@@ -20,7 +22,8 @@ def largest(a, b):
 print(largest(10, 20))  # Output: 20
 print(largest(30, 15))  # Output: 30
 
-#3. Print Numbers- Write a function print_numbers(n) that prints numbers from 1 to n using a loop.
+#3. Print Numbers
+#Write a function print_numbers(n) that prints numbers from 1 to n using a loop.
 
 def print_numbers(n):
     for i in range(1, n + 1):
